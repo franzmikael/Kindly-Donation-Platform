@@ -1,0 +1,23 @@
+1. jalanin 'composer install'
+
+2. jalanin 'cp .env.example .env'
+
+3. buka env dan ubah nama db-nya jadi 'donation', db user dan db password juga disesuaikan
+
+4. jalanin 'php artisan key:generate'
+
+5. jalanin 'php artisan migrate' atau import db yang disediakan
+
+6. jalanin 'php artisan storage:link'
+
+7. jalanin 'php artisan passport:install'
+
+8. jalanin 'npm install && npm run dev'
+
+9. jalanin 'php artisan serve' dan 'npm run watch'
+
+10. semua password akun bawaan db 123456
+
+11. cron Job (Update Submisi yang telah lewat dari hari ini, Jika ingin Menjalan kan nya di server perlu konfigurasi)
+   Jalanin 'php artisan Update:Submisi'
+   Note : Di konfigurasi untuk Setiap hari
